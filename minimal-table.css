@@ -1,0 +1,22 @@
+table, td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    width:  auto;
+    flex-wrap:nowrap;
+}
+
+table {
+    display:inline-table;
+    width:auto;
+    text-align:left;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    background-color: rgb(230, 232, 240);
+}
+
+th {
+    padding: 20px;
+    justify-content: center;
+    vertical-align: right;
+    margin-top: 30px;
+}
